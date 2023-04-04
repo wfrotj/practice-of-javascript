@@ -197,7 +197,6 @@ const squared = (number) => {
 };
 
 console.log(squared(5));
-*/
 
 const isTodayThursday = () => {
   const date = new Date();
@@ -207,3 +206,35 @@ const isTodayThursday = () => {
 };
 
 console.log(isTodayThursday());
+*/
+/*
+let grade = prompt("what is your grade?");
+
+switch (true) {
+  case grade >= 90:
+    console.log("A");
+    break;
+  case grade >= 80:
+    console.log("B");
+    break;
+  case grade >= 70:
+    console.log("C");
+    break;
+  case grade >= 60:
+    console.log("D");
+    break;
+  default:
+    console.log("F for fota");
+}*/
+
+const button = document.getElementById("mybtn");
+const name = prompt("what is your name?");
+const intro = `It's a pleasure to meet you, ${name}`;
+alert(intro);
+
+function greet() {
+  const x = `Thank you for submmitting your report, ${name}`;
+  alert(x);
+}
+
+button.addEventListener("click", greet);
