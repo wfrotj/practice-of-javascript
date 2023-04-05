@@ -226,7 +226,8 @@ switch (true) {
   default:
     console.log("F for fota");
 }*/
-
+/*
+----------------
 const button = document.getElementById("mybtn");
 const name = prompt("what is your name?");
 const intro = `It's a pleasure to meet you, ${name}`;
@@ -238,3 +239,51 @@ function greet() {
 }
 
 button.addEventListener("click", greet);
+
+const grade = Number(prompt("what is your grade?"));
+
+switch (true) {
+  case grade >= 90:
+    console.log("A");
+    break;
+  case grade >= 80:
+    console.log("B");
+    break;
+  case grade >= 70:
+    console.log("C");
+    break;
+  case grade >= 60:
+    console.log("D");
+    break;
+  case grade >= 0:
+    console.log("F");
+  default:
+    alert("I did not receive right information");
+}
+
+const month = prompt("what your birth month?");
+
+switch (true) {
+  case 0:
+    console.log("Happy new year!");
+    break;
+  case 1:
+    console.log("Happy hearts day!");
+    break;
+  case 2:
+    console.log("Its summer time!");
+    break;
+  case 3:
+    console.log("April fools!");
+    break;
+  case 4:
+    console.log("Its may time festival");
+    break;
+}*/
+
+const capitalized = (str) => {
+  let strToLowerCase = str.toLowerCase();
+  return strToLowerCase.charAt(0).toUpperCase() + strToLowerCase.slice(1);
+};
+
+console.log(capitalized("lowercase"));
