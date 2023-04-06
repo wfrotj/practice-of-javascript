@@ -281,9 +281,99 @@ switch (true) {
     break;
 }*/
 
-const capitalized = (str) => {
-  let strToLowerCase = str.toLowerCase();
-  return strToLowerCase.charAt(0).toUpperCase() + strToLowerCase.slice(1);
+/*
+
+const surname = (str) => {
+  let lastName = str.toLowerCase();
+  return lastName.toUpperCase();
 };
 
-console.log(capitalized("lowercase"));
+console.log(surname("rodrigo"));
+
+const middle = (str) => str.charAt(str.length - 2);
+
+console.log(middle("abcd"));*/
+/*
+const input = (str) => {
+  let name = str.toLowerCase();
+  return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
+};
+console.log(input("wilbert"));
+
+function reverseString(str) {
+  let result = "";
+
+  for (let i = str.length; i >= 0; i--) {
+    result = result + str.charAt(i);
+  }
+  return result;
+}
+console.log(reverseString("bert"));
+
+const cars = ["Saab", "Volvo", "Honda", "BMW", "Toyota"];
+
+console.log(cars[4]);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+console.log(fruits);
+
+const citrus = fruits.slice(2);
+
+console.log(citrus);*/
+
+/*
+fruits.pop()//deleting the last value in an array
+fruits.unshift()//adding value at the beginning of  an array
+fruits.shift()//deleting the first value in an array
+fruits.push()//addign value at the ending in an array
+fruits.splice()//deleting item in an array in any position just indicate the loctation
+fruits.slice()// the main difference between slice and splice is . The slice method remove the idex and you should input the start index and the end. however splice is you have to input the start index and how many items you want to get.
+fruits.join()//combine all values of an array
+fruist.reverse()//reverse the character.*/
+/*
+const array1 = ["helmet", "Accesssories", "Parts"];
+const array2 = ["arai", "hjc", "ls2", "agv"];
+const array3 = ["Manila", "Quezon", "Makati"];
+
+const myArray = array1.concat(array2).concat(array3);
+const newArray = myArray.flat();
+
+console.log(newArray);
+
+const nickName = (str) => {
+  let result = "";
+
+  for (i = 0; i >= i; i++);
+  return result;
+};
+
+console.log(nickName("wilbert"));
+
+array1.reverse();
+console.log(array1);*/
+
+const cars = ["honda", "suzuki", "toyota"];
+
+cars.reverse();
+console.log(cars);
+
+function reverseString(str) {
+  let result = "";
+  for (i = str.length; i >= 1; i++) {
+    result = result + str.charAt(i);
+  }
+  return result;
+}
+
+console.log(reverseString("wilbert"));
+
+function reverseString(str) {
+  let result = "";
+
+  for (let i = str.length; i >= 0; i--) {
+    result = result + str.charAt(i);
+  }
+  return result;
+}
+console.log(reverseString("bert"));
