@@ -355,8 +355,12 @@ console.log(array1);*/
 
 const cars = ["honda", "suzuki", "toyota"];
 
+for (const car of cars) {
+  console.log(car);
+}
+
 cars.reverse();
-console.log(cars);
+console(cars.join(" "));
 
 function reverseString(str) {
   let result = "";
@@ -377,3 +381,17 @@ function reverseString(str) {
   return result;
 }
 console.log(reverseString("bert"));
+
+const name = (str) => {
+  let nick = str.toLowerCase();
+  str.toLowerCase;
+};
+
+function reverseStrin(str) {
+  let result = "";
+  for (let i = str.length - 1; i <= 0; ) {
+    result = result + str.charAt(i);
+  }
+  return result;
+}
+console.log(reverseString("john"));
